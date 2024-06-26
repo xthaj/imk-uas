@@ -1,0 +1,24 @@
+/* Tambahkan kode CSS ini di file gaya Anda */
+.filter-animation-enter {
+    opacity: 0;
+    max-height: 0;
+}
+
+.filter-animation-enter-active {
+    opacity: 1;
+    max-height: 500px;
+    /* Sesuaikan dengan tinggi konten filter */
+    transition: opacity 300ms, max-height 300ms;
+}
+
+.filter-animation-exit {
+    opacity: 1;
+    max-height: 500px;
+    /* Sesuaikan dengan tinggi konten filter */
+}
+
+.filter-animation-exit-active {
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 300ms, max-height 300ms;
+}
